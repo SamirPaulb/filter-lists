@@ -262,7 +262,7 @@ cat > "$OUTPUT" << HEADER
 ! To modify: edit sources.txt or custom-rules.txt and push.
 !
 ! SETUP: Subscribe to this single URL in your browser:
-!   https://raw.githubusercontent.com/SamirPaulb/filter-lists/main/filters.txt
+!   https://raw.githubusercontent.com/SamirPaulb/filter-lists/refs/heads/main/filters.txt
 !
 ! ==============================
 ! SUBSCRIPTION RULES (merged from ${success} sources)

@@ -7,7 +7,7 @@ Comprehensive ad, tracker, malware, phishing & annoyance filter list — auto-co
 Add this **one URL** to your browser:
 
 ```
-https://raw.githubusercontent.com/SamirPaulb/filter-lists/main/filters.txt
+https://raw.githubusercontent.com/SamirPaulb/filter-lists/refs/heads/main/filters.txt
 ```
 
 ### uBlock Origin (Desktop)
