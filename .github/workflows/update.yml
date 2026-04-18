@@ -1,0 +1,41 @@
+name: Update Filter List
+
+on:
+  schedule:
+    - cron: '30 3 * * *'  # Daily at 3:30 AM UTC
+  workflow_dispatch:         # Manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'sources.txt'
+      - 'custom-rules.txt'
+      - 'scripts/merge.sh'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run merge script
+        run: bash scripts/merge.sh
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add filters.txt
+          if git diff --cached --quiet; then
+            echo "No changes to filters.txt"
+          else
+            RULES=$(grep -c '' filters.txt || true)
+            git commit -m "Update filter list — ${RULES} rules"
+            git push
+          fi
+
+
