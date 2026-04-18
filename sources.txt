@@ -75,6 +75,9 @@ https://raw.githubusercontent.com/piperun/iploggerfilter/master/filterlist
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubo-link-shorteners.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
 
+# --- Paywall Bypass ---
+https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt
+
 # --- Unbreak / Fix ---
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt

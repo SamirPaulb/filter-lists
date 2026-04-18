@@ -37,5 +37,3 @@ jobs:
             git commit -m "Update filter list — ${RULES} rules"
             git push
           fi
-
-
