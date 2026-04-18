@@ -1,6 +1,6 @@
 # Filter Lists
 
-Comprehensive ad, tracker, malware, phishing & annoyance filter list — auto-compiled from 50+ trusted sources into a single file.
+Comprehensive ad, tracker, malware, phishing & annoyance filter list — auto-compiled from 70+ trusted sources into a single file.
 
 ## Subscribe
 
@@ -22,23 +22,28 @@ https://raw.githubusercontent.com/SamirPaulb/filter-lists/main/filters.txt
 
 | Category | Sources |
 |----------|---------|
-| Ad Blocking | EasyList, uBlock Origin, AdGuard Base |
-| Privacy & Tracking | EasyPrivacy, AdGuard Tracking, uBO Privacy |
+| Ad Blocking | EasyList, uBlock Origin, AdGuard Base, Yoyo |
+| Privacy & Tracking | EasyPrivacy, AdGuard Tracking, uBO Privacy, yokoffing |
 | Malware & Phishing | URLhaus, Phishing Filter, Spam404, Hagezi TIF |
-| Annoyances | Fanboy Annoyance, uBO Cookies, AdGuard Annoyances |
+| Annoyances | Fanboy Annoyance/Newsletter/Social, uBO Cookies, AdGuard Annoyances, yokoffing |
+| AI & Chat Widgets | Fanboy AI Suggestions, Fanboy Chat Apps |
 | Crypto Mining | NoCoin, uBO Resource Abuse |
 | Regional | Chinese, Russian, German, Korean, Indonesian, Indian, Arabic |
-| Security | Hagezi Fake, DoH/VPN/Proxy Bypass, IP Loggers |
+| Security | Hagezi Fake, DoH/VPN/Proxy Bypass, IP Loggers, DandelionSprout Anti-Malware |
+| Brave-Specific | Brave Unbreak, Firstparty, Cookie, Social, YT Shorts/Distracting |
+| Paywall Bypass | Antipaywall, BPC Paywall Filter |
 | Custom | Popup networks, streaming scriptlets, fingerprinting, notification spam |
 
 ## How It Works
 
 A GitHub Action runs daily (fully automatic, zero manual work):
-1. Downloads all sources from `sources.txt`
-2. Strips comments and headers
-3. Deduplicates with `sort -u`
-4. Appends custom rules from `custom-rules.txt`
-5. Commits updated `filters.txt` only if content changed
+1. Downloads all sources from `sources.txt` (with 90s per-URL timeout)
+2. Resolves `!#include` directives recursively (up to 3 levels deep)
+3. Validates downloads (rejects HTML error pages, empty files, binary content)
+4. Strips comments and headers
+5. Deduplicates with `sort -u`
+6. Appends custom rules from `custom-rules.txt`
+7. Commits updated `filters.txt` only if content changed
 
 ## Customization
 

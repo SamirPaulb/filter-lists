@@ -42,6 +42,11 @@ https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances
 https://filters.adtidy.org/extension/ublock/filters/14.txt
 https://filters.adtidy.org/extension/ublock/filters/19.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList
+https://secure.fanboy.co.nz/fanboy-newsletter.txt
+https://secure.fanboy.co.nz/fanboy-mobile-notifications.txt
+https://easylist-downloads.adblockplus.org/fanboy-social.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt
+https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt
 
 # --- Resource Abuse & Crypto Mining ---
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
@@ -75,8 +80,22 @@ https://raw.githubusercontent.com/piperun/iploggerfilter/master/filterlist
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/ubo-link-shorteners.txt
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/lan-block.txt
 
+# --- Social, AI & Chat Widgets ---
+https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt
+https://raw.githubusercontent.com/easylist/easylist/master/fanboy-addon/fanboy_chatapps_third-party.txt
+
+# --- Brave-Specific ---
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-firstparty.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-specific.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-social.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/brave-cookie-specific.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-shorts.txt
+https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/yt-distracting.txt
+
 # --- Paywall Bypass ---
 https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt
+https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt
 
 # --- Unbreak / Fix ---
 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
