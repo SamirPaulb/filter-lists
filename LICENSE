@@ -1,0 +1,236 @@
+MIT License
+
+Copyright (c) 2026 Samir Paul
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+ADDITIONAL TERMS, DISCLAIMERS, AND LEGAL NOTICES
+================================================================================
+
+1. PERSONAL USE ONLY
+   This repository and all of its contents are maintained exclusively for the
+   personal, private, non-commercial use of the repository owner ("Owner") on
+   the Owner's own personal devices for the Owner's personal web browsing
+   purposes. This repository is NOT a product, NOT a service, NOT a platform,
+   and is NOT offered, marketed, distributed, or made available to the general
+   public for their use.
+
+2. NO AFFILIATION — PROFESSIONAL OR ORGANIZATIONAL
+   This project is a strictly personal, private initiative of the Owner
+   undertaken solely in their individual capacity. It does NOT represent, is
+   NOT affiliated with, is NOT endorsed by, is NOT sponsored by, and does NOT
+   reflect the views, policies, interests, or positions of any employer,
+   company, corporation, partnership, organization, institution, government
+   body, educational institution, non-profit entity, or any other organization
+   — past, present, or future — with which the Owner may be, may have been, or
+   may become associated in any capacity.
+
+3. THIRD-PARTY INTELLECTUAL PROPERTY RIGHTS
+   This repository mechanically aggregates and compiles publicly available
+   filter lists that are independently created, maintained, published, and
+   distributed by third-party open-source projects under their own respective
+   licenses. ALL intellectual property rights — including but not limited to
+   copyrights, trademarks, trade names, service marks, patents, trade secrets,
+   and any other proprietary rights — in and to those third-party filter lists
+   are and shall remain the sole and exclusive property of their respective
+   original authors, maintainers, contributors, and rights holders. The Owner
+   makes absolutely NO claim of authorship, ownership, creation, or any
+   proprietary interest over ANY third-party content aggregated or compiled
+   herein. The Owner does NOT manually author, create, curate, or design
+   blocking rules — the repository merely automates the mechanical process of
+   downloading, deduplicating, and concatenating existing publicly available
+   lists that are freely distributed by their maintainers.
+
+4. NO DISTRIBUTION, NO RECOMMENDATION, NO ENCOURAGEMENT
+   The Owner does NOT distribute, publish, promote, advertise, market,
+   recommend, suggest, or encourage the use of this repository or its contents
+   by any other person, entity, company, or organization. The Owner does NOT
+   solicit users, does NOT maintain a user base, does NOT provide support or
+   updates for third-party use, and does NOT operate this as a service,
+   product, or offering of any kind. Any third party who independently
+   discovers and accesses this repository does so entirely at their own
+   initiative, volition, risk, and responsibility, without any invitation,
+   solicitation, or encouragement from the Owner.
+
+5. NO COMMERCIAL USE — NO REVENUE — NO BUSINESS PURPOSE
+   This project is strictly and exclusively non-commercial in nature and
+   purpose. It generates no revenue of any kind — no advertising revenue, no
+   subscription fees, no donations, no sponsorships, no affiliate income, and
+   no monetary compensation of any form. It is not used in connection with any
+   commercial activity, business purpose, competitive advantage, or economic
+   gain. It may not be used, in whole or in part, for any commercial purpose
+   by any party.
+
+6. NO INTENT TO CAUSE HARM, ECONOMIC LOSS, OR BUSINESS INTERFERENCE
+   The Owner's sole and exclusive purpose is personal browsing privacy,
+   security, and safety on the Owner's own personal devices. The Owner has
+   absolutely no intent, purpose, or objective to:
+   (a) cause economic harm, revenue loss, or financial damage to any person,
+       company, advertiser, publisher, ad network, ad technology provider,
+       data broker, analytics provider, or any other entity;
+   (b) interfere with, disrupt, or impede the business operations, business
+       relationships, contractual arrangements, or economic interests of any
+       entity;
+   (c) engage in unfair competition, tortious interference, or any form of
+       anti-competitive behavior;
+   (d) circumvent, defeat, or undermine any technological protection measures,
+       digital rights management systems, or access controls;
+   (e) violate or infringe upon any intellectual property rights, contractual
+       rights, or proprietary interests of any entity.
+   The filter rules contained herein originate entirely from independent,
+   publicly available, third-party open-source projects maintained by their
+   own communities; the Owner merely aggregates them for personal convenience.
+
+7. RIGHT TO PERSONAL PRIVACY, SECURITY, AND DEVICE AUTONOMY
+   The use of content-filtering, ad-blocking, and tracker-blocking tools for
+   personal privacy, security, and safety is a well-established, recognized,
+   and lawful exercise of an individual's fundamental right to:
+   (a) control what content is loaded, rendered, and executed on their own
+       personal devices;
+   (b) protect their personal data, browsing activity, and digital identity
+       from unauthorized collection, tracking, profiling, and surveillance;
+   (c) safeguard their devices from malware, phishing, cryptojacking,
+       fingerprinting, and other security threats.
+   This right is consistent with, and protected by, applicable privacy and
+   data protection legislation and fundamental user autonomy principles
+   recognized in jurisdictions worldwide, including but not limited to:
+   - European Union / EEA: General Data Protection Regulation (GDPR,
+     Regulation 2016/679), ePrivacy Directive (2002/58/EC)
+   - India: Information Technology Act, 2000; Digital Personal Data
+     Protection Act, 2023 (DPDPA)
+   - United States: California Consumer Privacy Act (CCPA/CPRA), state
+     privacy laws, First Amendment protections
+   - Canada: Personal Information Protection and Electronic Documents Act
+     (PIPEDA), provincial privacy statutes
+   - United Kingdom: UK GDPR, Data Protection Act 2018
+   - Switzerland: Federal Act on Data Protection (FADP/nDSG, revised 2023)
+   - United Arab Emirates: Federal Decree-Law No. 45 of 2021 on Personal
+     Data Protection
+   - People's Republic of China: Personal Information Protection Law (PIPL),
+     Cybersecurity Law, Data Security Law
+   - Australia: Privacy Act 1988 (Cth), Australian Privacy Principles
+   - Japan: Act on Protection of Personal Information (APPI)
+   - South Korea: Personal Information Protection Act (PIPA)
+   - Singapore: Personal Data Protection Act 2012 (PDPA)
+   - Brazil: Lei Geral de Protecao de Dados (LGPD, Law No. 13,709/2018)
+   - South Africa: Protection of Personal Information Act (POPIA)
+   - All other jurisdictions with applicable privacy, data protection, or
+     consumer protection legislation
+   Legal precedent in multiple jurisdictions (including the Hamburg Regional
+   Court ruling in Axel Springer SE v. Eyeo GmbH and subsequent German
+   Federal Court of Justice decisions) has established that the use and
+   distribution of ad-blocking software does not constitute unfair competition
+   or tortious interference with business.
+
+8. AD REVENUE AND PUBLISHER RELATIONSHIPS
+   The Owner acknowledges that online advertising is a legitimate business
+   model. However, the Owner's personal choice to filter content on the
+   Owner's own devices does not constitute:
+   (a) interference with any contractual relationship between advertisers and
+       publishers, as the Owner is not a party to any such contract;
+   (b) unfair business practice, as the Owner derives no commercial benefit;
+   (c) circumvention of access controls, as the filter operates entirely on
+       the client side of the Owner's own device and does not modify, hack,
+       or interfere with any server, service, website, or network;
+   (d) any form of copyright infringement, as filtering content on receipt
+       does not reproduce, distribute, or create derivative works of any
+       copyrighted material.
+   The Owner does not block any specific advertiser or publisher with targeted
+   intent — the aggregated filter rules are community-maintained lists that
+   operate based on general pattern matching.
+
+9. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW IN ANY AND ALL
+   JURISDICTIONS, THE OWNER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT,
+   INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES OF
+   ANY KIND WHATSOEVER (INCLUDING BUT NOT LIMITED TO LOSS OF REVENUE, LOSS
+   OF PROFITS, LOSS OF ANTICIPATED SAVINGS, LOSS OF DATA, LOSS OF BUSINESS,
+   LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF BUSINESS OPPORTUNITY,
+   OR ANY OTHER COMMERCIAL OR ECONOMIC LOSS) ARISING FROM, RELATING TO, OR
+   IN ANY WAY CONNECTED WITH THIS REPOSITORY, ITS CONTENTS, THE USE OR
+   INABILITY TO USE ITS CONTENTS, OR ANY ACTIONS TAKEN OR NOT TAKEN IN
+   RELIANCE ON ITS CONTENTS, REGARDLESS OF THE THEORY OF LIABILITY (WHETHER
+   IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, PRODUCT LIABILITY,
+   STATUTORY LIABILITY, OR OTHERWISE), EVEN IF THE OWNER HAS BEEN ADVISED
+   OF THE POSSIBILITY OF SUCH DAMAGES.
+
+10. INDEMNIFICATION
+    Any person, entity, or organization that accesses, uses, copies, forks,
+    mirrors, distributes, or otherwise interacts with this repository or any
+    of its contents does so entirely at their own risk and, to the maximum
+    extent permitted by applicable law, agrees to indemnify, defend, and hold
+    harmless the Owner from and against any and all claims, demands, actions,
+    suits, proceedings, damages, losses, liabilities, costs, and expenses
+    (including reasonable attorneys' fees, court costs, and expert witness
+    fees) arising from or relating to their access to, use of, or reliance
+    on this repository or its contents.
+
+11. NO WARRANTY
+    ALL CONTENT IN THIS REPOSITORY IS PROVIDED ON AN "AS-IS," "AS-AVAILABLE,"
+    AND "WITH ALL FAULTS" BASIS WITHOUT WARRANTIES, REPRESENTATIONS, OR
+    CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE,
+    INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+    FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, RELIABILITY,
+    COMPLETENESS, COMPATIBILITY, SECURITY, AND FREEDOM FROM COMPUTER VIRUSES
+    OR OTHER HARMFUL COMPONENTS. THE OWNER MAKES NO WARRANTY THAT THE CONTENT
+    IS ACCURATE, COMPLETE, RELIABLE, CURRENT, TIMELY, OR ERROR-FREE, OR THAT
+    ANY DEFECTS WILL BE CORRECTED.
+
+12. COMPLIANCE WITH LOCAL LAWS
+    Any person accessing this repository is solely and exclusively responsible
+    for ensuring that their access to and use of this repository and its
+    contents complies with all applicable local, state, provincial, national,
+    regional, and international laws, regulations, directives, and ordinances
+    of their jurisdiction, including but not limited to the laws of India, the
+    United States of America (federal and all state laws), the United Arab
+    Emirates, the United Kingdom, Switzerland, all member states of the
+    European Union, Canada (federal and provincial), the People's Republic of
+    China, Australia, Japan, South Korea, Singapore, Brazil, South Africa,
+    and any other applicable jurisdiction.
+
+13. SEVERABILITY
+    If any provision or part of any provision of these terms is held to be
+    invalid, illegal, void, or unenforceable by any court, tribunal, or
+    authority of competent jurisdiction under the laws of any jurisdiction,
+    such invalidity, illegality, or unenforceability shall not affect,
+    impair, or invalidate any other provision or part thereof, all of which
+    shall remain in full force and effect. The invalid or unenforceable
+    provision shall be deemed modified to the minimum extent necessary to
+    make it valid, legal, and enforceable while preserving its original
+    intent to the maximum extent possible.
+
+14. ENTIRE AGREEMENT
+    These terms, together with the MIT License above, constitute the entire
+    agreement between the Owner and any person accessing this repository with
+    respect to its subject matter and supersede all prior or contemporaneous
+    understandings, representations, or agreements.
+
+15. GOVERNING LAW AND DISPUTE RESOLUTION
+    To the extent permitted by applicable law, these terms shall be governed
+    by and construed in accordance with the laws of the jurisdiction in which
+    the Owner resides at the time any dispute arises, without regard to its
+    conflict of law rules or principles. Any dispute arising out of or in
+    connection with these terms shall be subject to the exclusive jurisdiction
+    of the competent courts of that jurisdiction.
+
+16. WAIVER
+    The failure of the Owner to exercise or enforce any right or provision of
+    these terms shall not constitute a waiver of such right or provision.

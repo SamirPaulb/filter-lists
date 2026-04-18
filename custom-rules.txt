@@ -1,0 +1,106 @@
+! --- Popup/Popunder Ad Networks ---
+||popads.net^
+||popads.net/pop.js
+||popcash.net^
+||propellerads.com^
+||propeller-tracking.com^
+||propellerclick.com^
+||adcash.com^
+||adsterra.com^
+||adsterratech.com^
+||ad-maven.com^
+||bidvertiser.com^
+||clickadu.com^
+||clickaine.com^
+||exoclick.com^
+||exosrv.com^
+||hilltopads.net^
+||juicyads.com^
+||trafficjunky.com^
+||trafficstars.com^
+||trafficfactory.biz^
+||tsyndicate.com^
+||a-ads.com^
+||bongacams.com^
+||chaturbate.com/in/?tour=*&campaign=*^
+||pushground.com^
+||push.house^
+||richpush.co^
+||megapush.com^
+||evadav.com^
+||galaksion.com^
+||monetag.com^
+||onclicka.com^
+||onclickads.net^
+||onclickmax.com^
+||go.strm.link^
+||go.ad2upapp.com^
+||go.pub2srv.com^
+||go.onclasrv.com^
+||serve.popads.net^
+
+! --- Generic Anti-Popup (safe for all sites) ---
+||whos.amung.us^$third-party
+||sharethis.com^$third-party
+||movhub.ws^$popup
+||yflix.to^$popup
+||1movies.bz^$popup
+
+! --- Streaming Site Scriptlets (uBlock Origin & Brave adblock-rust) ---
+anikai.to,animekai.*,anigo.to,flixzone.co,1moviesz.to,sflix.fi,moontv.to,hianime.ws,myflixer.bz,watchseries.st##+js(nowoif, _blank)
+anikai.to,animekai.*,anigo.to,flixzone.co,1moviesz.to,sflix.fi,moontv.to,hianime.ws,myflixer.bz,watchseries.st##+js(nostif, ||!!)
+anikai.to,animekai.*,anigo.to,flixzone.co,1moviesz.to,sflix.fi,moontv.to,hianime.ws,myflixer.bz,watchseries.st##+js(nosiif, devtool)
+anikai.to,animekai.*,anigo.to,flixzone.co,1moviesz.to,sflix.fi,moontv.to,hianime.ws,myflixer.bz,watchseries.st##+js(set, console.clear, trueFunc)
+anikai.to,animekai.*,anigo.to,flixzone.co,1moviesz.to,sflix.fi,moontv.to,hianime.ws,myflixer.bz,watchseries.st##+js(set, history.back, noopFunc)
+||anikai.to/sw.js^
+||animekai.to/sw.js^
+gogoanime.*,gogoanimes.*,anitaku.*,9anime.*,aniwatch.*,hianime.*,animepahe.*,animesuge.*,yugenanime.*,animeflv.*,jkanime.*,monoschinos.*##+js(nowoif)
+gogoanime.*,gogoanimes.*,anitaku.*,9anime.*,animepahe.*##+js(nowebrtc)
+animepahe.*,kwik.*,gogoanime.*,gogoanimes.*,9anime.*##+js(aopr, PopAds)
+
+! --- Malicious Download Prevention ---
+||cdn.downloadwontube.com^
+||dl-protect.link^
+||download-instantly.com^
+||downloadbuttoncolor.com^
+||fake-download.com^
+||free-download-now.com^
+||installrex.com^
+##a[href*="redirect."][href*="download"]
+##a[href*="?campaign="][onclick*="window.open"]
+##div[class*="fake-download"]
+##div[class*="download-overlay"]
+##.popunder-trigger
+##.pop-trigger
+##[onclick*="popunder"]
+##[onclick*="window.open"][onclick*="about:blank"]
+
+! --- Crypto Miners ---
+||coinhive.com^
+||coin-hive.com^
+||minero.cc^
+||authedmine.com^
+||crypto-loot.com^
+||cryptonight.wasm^
+||coinimp.com^
+||ppoi.org^
+||cryptaloot.pro^
+||webmine.pro^
+||webminepool.com^
+||monerominer.rocks^
+
+! --- Notification Spam ---
+||push.world^
+||sendpulse.com/push^
+||onesignal.com/sdks^
+||pushwoosh.com^
+||cleverpush.com^
+||webpushr.com^
+||pushcrew.com^
+
+! --- Fingerprinting ---
+||cdn.fingerprint.com^
+||fpjs.pro^
+||fpjscdn.net^
+||cdn.jsdelivr.net/npm/@aspect-build/analytics
+||openfpcdn.io^
