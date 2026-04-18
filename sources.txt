@@ -57,6 +57,7 @@ https://filters.adtidy.org/extension/ublock/filters/15.txt
 
 # --- Comprehensive Domain Blocking ---
 https://big.oisd.nl
+https://someonewhocares.org/hosts/hosts
 
 # --- Regional ---
 https://filters.adtidy.org/extension/ublock/filters/224.txt
