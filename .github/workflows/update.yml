@@ -27,8 +27,8 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "SamirPaulb"
+          git config user.email "77569653+SamirPaulb@users.noreply.github.com"
           git add filters.txt
           if git diff --cached --quiet; then
             echo "No changes to filters.txt"
